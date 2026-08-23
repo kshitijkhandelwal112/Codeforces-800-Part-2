@@ -34,7 +34,7 @@ int main() {
         cin >> a >> b;
 
         int diff = abs(a - b);
-        cout << diff / 10 + (diff % 10 != 0) << endl;
+        cout << diff / 10 + (diff % 10 != 0) << endl; // Great thing: the bracket contained both if-conditional and output.
     }
 }
 */
