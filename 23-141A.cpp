@@ -21,7 +21,8 @@ int main() {
     cout<<"YES"<<endl;
     return 0;
 }// AI told that my solution is not good because it is O(n^2).
-/* BETTER SOLUTION LIKE MINE TOLD BY CLAUDE:
+// A good method told by chatgpt: sort the strings, then compare them directly, no need to compare character by character.
+/* ANOTHER GOOD SOLUTION LIKE MINE TOLD BY CLAUDE:
 #include <iostream>
 #include <string>
 #include <array>
